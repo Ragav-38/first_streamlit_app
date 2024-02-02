@@ -10,8 +10,8 @@ streamlit.header('The fruit load list contains')
 streamlit.dataframe(my_data_row)
 
 fruit_choice1=  streamlit.text_input('What fruit would you like to add?','Kiwi')
-my_data_row=my_data_row.loc(fruit_choice1)
-streamlit.dataframe(my_data_row)
+
+streamlit.dataframe(fruit_choice1)
 
 
 streamlit.title('My parents new healthy diner')
